@@ -25,8 +25,8 @@ import {
   isPrevPageAvailable,
 } from './sharedFunctions';
 
-const MINUTES_STEP = 5;
-const MINUTES_ON_PAGE = 12;
+const MINUTES_STEP = 30;
+const MINUTES_ON_PAGE = 2;
 const PAGE_WIDTH = 3;
 
 type MinutePickerProps = BasePickerProps
